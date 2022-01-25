@@ -1,0 +1,72 @@
+{
+ "data" : {
+  "device" : 2359298,
+  "device_version" : 20971617,
+  "meta" : {
+   "name" : "no matter",
+   "tnid" : 0
+  },
+  "tone" : {
+   "THRGroupAmp" : {
+    "@asset" : "THR30_Blondie",
+    "Bass" : 0.359259,
+    "Drive" : 1.0,
+    "Master" : 0.407407,
+    "Mid" : 0.925926,
+    "Treble" : 0.774074
+   },
+   "THRGroupCab" : {
+    "@asset" : "speakerSimulator",
+    "SpkSimType" : 12
+   },
+   "THRGroupFX1Compressor" : {
+    "@asset" : "RedComp",
+    "@enabled" : true,
+    "Level" : 0.341111,
+    "Sustain" : 0.637037
+   },
+   "THRGroupFX2Effect" : {
+    "@asset" : "StereoSquareChorus",
+    "@enabled" : true,
+    "@wetDry" : 0.326144,
+    "Depth" : 0.27780,
+    "Feedback" : 0.112460,
+    "Freq" : 0.162497,
+    "Pre" : 0.50
+   },
+   "THRGroupFX3EffectEcho" : {
+    "@asset" : "TapeEcho",
+    "@enabled" : true,
+    "@wetDry" : 0.348148,
+    "Bass" : 0.414815,
+    "Feedback" : 0.333704,
+    "Time" : 0.372482,
+    "Treble" : 0.251852
+   },
+   "THRGroupFX4EffectReverb" : {
+    "@asset" : "SmallRoom1",
+    "@enabled" : true,
+    "@wetDry" : 0.803704,
+    "Decay" : 0.50,
+    "PreDelay" : 0.50,
+    "Tone" : 0.50
+   },
+   "THRGroupGate" : {
+    "@asset" : "noiseGate",
+    "@enabled" : false,
+    "Decay" : 0.2050,
+    "Thresh" : -33.0
+   },
+   "global" : {
+    "THRPresetParamTempo" : 110
+   }
+  }
+ },
+ "meta" : {
+  "original" : 0,
+  "pbn" : 0,
+  "premium" : 0
+ },
+ "schema" : "L6Preset",
+ "version" : 5
+}
