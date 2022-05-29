@@ -1,0 +1,72 @@
+{
+ "data" : {
+  "device" : 2359298,
+  "device_version" : 21102695,
+  "meta" : {
+   "name" : "spring dream outro riff",
+   "tnid" : 0
+  },
+  "tone" : {
+   "THRGroupAmp" : {
+    "@asset" : "THR30_Carmen",
+    "Bass" : 0.0,
+    "Drive" : 0.0296296,
+    "Master" : 0.825926,
+    "Mid" : 0.0,
+    "Treble" : 1.0
+   },
+   "THRGroupCab" : {
+    "@asset" : "speakerSimulator",
+    "SpkSimType" : 6
+   },
+   "THRGroupFX1Compressor" : {
+    "@asset" : "RedComp",
+    "@enabled" : true,
+    "Level" : 0.807407,
+    "Sustain" : 0.929628
+   },
+   "THRGroupFX2Effect" : {
+    "@asset" : "StereoSquareChorus",
+    "@enabled" : true,
+    "@wetDry" : 0.355555,
+    "Depth" : 0.322222,
+    "Feedback" : 0.463334,
+    "Freq" : 0.436296,
+    "Pre" : 0.185185
+   },
+   "THRGroupFX3EffectEcho" : {
+    "@asset" : "TapeEcho",
+    "@enabled" : true,
+    "@wetDry" : 0.359259,
+    "Bass" : 0.0,
+    "Feedback" : 0.244814,
+    "Time" : 0.448705,
+    "Treble" : 0.514815
+   },
+   "THRGroupFX4EffectReverb" : {
+    "@asset" : "LargePlate1",
+    "@enabled" : true,
+    "@wetDry" : 0.455557,
+    "Decay" : 0.659258,
+    "PreDelay" : 0.070370,
+    "Tone" : 0.122221
+   },
+   "THRGroupGate" : {
+    "@asset" : "noiseGate",
+    "@enabled" : false,
+    "Decay" : 0.60,
+    "Thresh" : -38.0
+   },
+   "global" : {
+    "THRPresetParamTempo" : 110
+   }
+  }
+ },
+ "meta" : {
+  "original" : 0,
+  "pbn" : 0,
+  "premium" : 0
+ },
+ "schema" : "L6Preset",
+ "version" : 5
+}

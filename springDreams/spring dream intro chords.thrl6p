@@ -1,0 +1,72 @@
+{
+ "data" : {
+  "device" : 2359298,
+  "device_version" : 21102695,
+  "meta" : {
+   "name" : "spring dream intro chords",
+   "tnid" : 0
+  },
+  "tone" : {
+   "THRGroupAmp" : {
+    "@asset" : "THR30_Carmen",
+    "Bass" : 0.0925926,
+    "Drive" : 0.222221,
+    "Master" : 0.814815,
+    "Mid" : 0.111111,
+    "Treble" : 0.785186
+   },
+   "THRGroupCab" : {
+    "@asset" : "speakerSimulator",
+    "SpkSimType" : 6
+   },
+   "THRGroupFX1Compressor" : {
+    "@asset" : "RedComp",
+    "@enabled" : true,
+    "Level" : 0.951852,
+    "Sustain" : 0.081480
+   },
+   "THRGroupFX2Effect" : {
+    "@asset" : "StereoSquareChorus",
+    "@enabled" : true,
+    "@wetDry" : 0.370370,
+    "Depth" : 0.322222,
+    "Feedback" : 0.463334,
+    "Freq" : 0.247407,
+    "Pre" : 0.185185
+   },
+   "THRGroupFX3EffectEcho" : {
+    "@asset" : "TapeEcho",
+    "@enabled" : true,
+    "@wetDry" : 0.340740,
+    "Bass" : 0.151852,
+    "Feedback" : 0.104073,
+    "Time" : 0.456926,
+    "Treble" : 0.322222
+   },
+   "THRGroupFX4EffectReverb" : {
+    "@asset" : "LargePlate1",
+    "@enabled" : true,
+    "@wetDry" : 0.481483,
+    "Decay" : 0.840739,
+    "PreDelay" : 0.070370,
+    "Tone" : 0.140740
+   },
+   "THRGroupGate" : {
+    "@asset" : "noiseGate",
+    "@enabled" : false,
+    "Decay" : 0.60,
+    "Thresh" : -38.0
+   },
+   "global" : {
+    "THRPresetParamTempo" : 110
+   }
+  }
+ },
+ "meta" : {
+  "original" : 0,
+  "pbn" : 0,
+  "premium" : 0
+ },
+ "schema" : "L6Preset",
+ "version" : 5
+}
